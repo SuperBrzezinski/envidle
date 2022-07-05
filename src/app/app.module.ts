@@ -5,10 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
+import { ShellComponent } from './shell/shell.component';
+import { MainGridComponent } from './main-grid/main-grid.component';
+import { ScoreDisplayerComponent } from './score-displayer/score-displayer.component';
+import { ProgrammersListComponent } from './programmers-list/programmers-list.component';
+import { ProgrammerComponent } from './programmer/programmer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShellComponent,
+    MainGridComponent,
+    ScoreDisplayerComponent,
+    ProgrammersListComponent,
+    ProgrammerComponent
   ],
   imports: [
     BrowserModule,

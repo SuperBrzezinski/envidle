@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+.score-displayer {
+  grid-column-end: span 4;
+  border: 1px solid black
+}
+
+.programmers-list {
+  grid-column-end: span 1;
+  border: 1px solid black
+}
